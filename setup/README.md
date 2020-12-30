@@ -1,6 +1,9 @@
 # Raspberry Pi OS Setup Scripts
 
-This contains bash scripts that can be used to setup a new headless 64-bit raspberry pi
+This contains bash scripts that can be used to setup a new headless 64-bit raspberry pi.
+
+### **WARNING**
+These `.sh` files don't run properly.
 
 <!-- links -->
 [raspberry pi os lite 64-bit]: https://downloads.raspberrypi.org/raspios_lite_arm64/images/

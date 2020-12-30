@@ -35,3 +35,8 @@ sudo mkdir /etc/sudoers.d/
 sudo touch /etc/sudoers.d/liam
 # sudo echo "liam ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers.d/liam
 sudo echo "liam ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/liam
+
+# change user and test that you have sudo
+su - liam 
+
+sudo # should not get an error message
